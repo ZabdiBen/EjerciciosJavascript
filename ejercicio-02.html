@@ -1,0 +1,29 @@
+
+
+<!-- Prueba de document.write con opem y close.
+resultado:
+ La pagina siempre va a borrar lo que se haya escrito en el html despues de usarse.
+-->
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>mi primera pagina <h2>
+
+
+<p id="demo" >Mi primer parrafo</p>
+
+<button type="button"  onclick="prueba()">intentalo
+</button>
+
+
+  <script>
+  function prueba(){
+    document.open();
+    document.write("hey bebe");
+    document.close();
+  }
+  </script>
+
+</body>
+</html>
