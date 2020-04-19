@@ -1,6 +1,8 @@
-let variable = "valor";
+let v = "valor";
 
-variable = "nuevoValor";
+let y = "bebe";
 
-const constante = "Hola soy una constante";
 
+console.log("hola, %s, tienes un %s", v, y );
+
+//console.log(`hola ${variable}`)
